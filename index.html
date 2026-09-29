@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanvir Tonmoy | AI & Spatial Systems Specialist</title>
+    <title>Tanvir Tonmoy | AI Systems Architect & Lead Agentic Engineer</title>
     <style>
         :root {
             --bg-color: #0d1117;
@@ -21,6 +22,43 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+        }
+
+        nav {
+            background-color: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1.5rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            color: var(--heading-color);
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .nav-links a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-color);
         }
 
         .container {
@@ -45,6 +83,7 @@
             font-size: 1.2rem;
             color: var(--accent-color);
             margin-top: 0;
+            font-weight: 500;
         }
 
         .section {
@@ -61,7 +100,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 1.5rem;
         }
 
@@ -85,7 +124,7 @@
         .skills-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 0.6rem;
             list-style: none;
             padding: 0;
         }
@@ -94,29 +133,52 @@
             background-color: #21262d;
             border: 1px solid var(--border-color);
             color: var(--accent-color);
-            padding: 0.3rem 0.8rem;
+            padding: 0.4rem 0.9rem;
             border-radius: 20px;
             font-size: 0.9rem;
         }
 
-        .contact-btn {
+        .btn-group {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
             display: inline-block;
-            background-color: #238636;
-            color: #ffffff;
-            padding: 0.8rem 1.5rem;
+            padding: 0.7rem 1.4rem;
             border-radius: 6px;
             text-decoration: none;
             font-weight: bold;
-            margin-top: 1rem;
+            font-size: 0.95rem;
+            transition: background-color 0.2s ease;
         }
 
-        .contact-btn:hover {
+        .btn-primary {
+            background-color: #238636;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
             background-color: #2ea043;
+        }
+
+        .btn-secondary {
+            background-color: #21262d;
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #30363d;
+            color: var(--heading-color);
         }
 
         footer {
             text-align: center;
-            padding: 2rem 0;
+            padding: 2.5rem 0;
             border-top: 1px solid var(--border-color);
             font-size: 0.9rem;
             color: #8b949e;
@@ -125,52 +187,78 @@
 </head>
 <body>
 
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">MD Tanvir Tonmoy</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
-        <header>
-            <h1>Tanvir Tonmoy</h1>
-            <p class="subtitle">AI Specialist | Spatial Systems Architect | Founder @ Elite Axis</p>
-            <p>Architecting decentralized autonomous solutions, spatial protocol integration, and proof-of-work systems.</p>
-            <a href="mailto:eliteaxis.official@zohomail.com" class="contact-btn">Get In Touch</a>
+        <header id="about">
+            <h1>MD Tanvir Tonmoy</h1>
+            <p class="subtitle">AI Systems Architect & Lead Agentic Engineer | Founder @ Elite Axis</p>
+            <p>Specializing in OpenAI Agents SDK, Gemini APIs, autonomous multi-agent orchestration, test-driven evaluation suites, and T.M.T Protocol systems design.</p>
+            <div class="btn-group">
+                <a href="mailto:eliteaxis.official@zohomail.com" class="btn btn-primary">Get In Touch</a>
+                <a href="https://github.com/tanvirsparklegifts" target="_blank" class="btn btn-secondary">GitHub Profile</a>
+            </div>
         </header>
 
-        <section class="section">
-            <h2>Core Competencies</h2>
+        <section id="skills" class="section">
+            <h2>Core Competencies & Stack</h2>
             <ul class="skills-list">
-                <li class="skill-tag">Spatial Systems Architecture</li>
-                <li class="skill-tag">Autonomous AI Agents</li>
-                <li class="skill-tag">T.M.T Protocol Engineering</li>
-                <li class="skill-tag">Decentralized Systems</li>
-                <li class="skill-tag">Proof of Work Frameworks</li>
-                <li class="skill-tag">System Security & Auth</li>
+                <li class="skill-tag">OpenAI Agents SDK</li>
+                <li class="skill-tag">Gemini API Ecosystem</li>
+                <li class="skill-tag">Multi-Agent Orchestration</li>
+                <li class="skill-tag">Gemini Native PCM Voice (TTS)</li>
+                <li class="skill-tag">Automated Eval Suits (evals/run_local.py)</li>
+                <li class="skill-tag">Dynamic State Engines & Sentiment</li>
+                <li class="skill-tag">T.M.T Protocol Architecture</li>
+                <li class="skill-tag">OpenClaw Autonomous Framework</li>
+                <li class="skill-tag">Docker & Microservices</li>
+                <li class="skill-tag">Python (uv) & TypeScript</li>
+                <li class="skill-tag">OAuth & API Key Security</li>
+                <li class="skill-tag">Web3 Platform Infrastructure</li>
             </ul>
         </section>
 
-        <section class="section">
-            <h2>Featured Focus & Projects</h2>
+        <section id="projects" class="section">
+            <h2>Featured Projects & Architecture</h2>
             <div class="grid">
                 <div class="card">
-                    <h3>Spatial AI Architecture</h3>
-                    <p>Designing high-throughput spatial protocols and intelligent systems for modern autonomous environments.</p>
+                    <h3>Noir Interrogation App</h3>
+                    <p>Interactive 1940s-themed app powered by Gemini API, Canvas, dynamic emotional states ("Smug", "Guarded"), real-time meters, and native PCM voice synthesis.</p>
                 </div>
                 <div class="card">
-                    <h3>T.M.T Protocol Integration</h3>
-                    <p>Advanced architectural framework design focusing on privacy-preserving proof-of-work mechanisms.</p>
+                    <h3>Multi-Agent Evaluation Harness</h3>
+                    <p>Python-based grading harness testing trace behaviors, tool execution bounds (@function_tool), and state updates for 99%+ operational reliability.</p>
                 </div>
                 <div class="card">
-                    <h3>Elite Axis Systems</h3>
-                    <p>Strategic management and execution of tech-driven ecosystem initiatives and operational frameworks.</p>
+                    <h3>Autonomous Deployment Pipeline</h3>
+                    <p>Modular layout combining agent definitions (agent.py), server entrypoints (main.py), and Docker setups with readiness checks (/health).</p>
+                </div>
+                <div class="card">
+                    <h3>T.M.T Protocol & Decentralized Systems</h3>
+                    <p>Security-focused architecture with encrypted data layers, custom identity framework integration, and Web3 interoperability.</p>
                 </div>
             </div>
         </section>
 
-        <section class="section" style="text-align: center;">
-            <h2>Connect</h2>
-            <p>Official Inquiries & Professional Outreach:</p>
-            <p><strong>Email:</strong> eliteaxis.official@zohomail.com</p>
+        <section id="contact" class="section" style="text-align: center;">
+            <h2>Contact & Outreach</h2>
+            <p>For strategic tech collaboration, agentic architecture design, or official inquiries:</p>
+            <p><strong>Primary Contact:</strong> eliteaxis.official@zohomail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/tanvirsparklegifts" target="_blank" style="color: var(--accent-color);">github.com/tanvirsparklegifts</a></p>
         </section>
 
         <footer>
-            <p>&copy; 2026 Tanvir Tonmoy. All rights reserved.</p>
+            <p>&copy; 2026 MD Tanvir Tonmoy (Elite Axis). All rights reserved.</p>
         </footer>
     </div>
 
