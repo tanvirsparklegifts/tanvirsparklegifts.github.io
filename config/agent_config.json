@@ -1,0 +1,19 @@
+{
+  "system_name": "EliteAxis-Agentic-Core",
+  "architect": "MD Tanvir Ahammed Tonmoy",
+  "frameworks": {
+    "primary": "OpenAI Agents SDK",
+    "autonomous_runtime": "OpenClaw Framework",
+    "evaluation_harness": "evals/run_local.py"
+  },
+  "parameters": {
+    "max_turns": 10,
+    "temperature": 0.2,
+    "strict_tool_calls": true,
+    "memory_persistence": "encrypted_local_layer"
+  },
+  "protocols": [
+    "T.M.T Protocol v1.0",
+    "Aethel Architecture"
+  ]
+}
