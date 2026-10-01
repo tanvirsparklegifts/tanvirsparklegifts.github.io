@@ -31,5 +31,5 @@ An enterprise-grade, 1940s-themed interactive AI investigation system powered by
 ├── README.md                    # Professional Project Documentation
 └── requirements.txt             # Enterprise Python Dependencies
 
+👉 [View ARCHITECT.md](ARCHITECT.md)
 
-👉 **[View ARCHITECT.md](ARCHITECT.md)**
