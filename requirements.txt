@@ -1,0 +1,5 @@
+google-cloud-bigquery>=3.11.0
+google-cloud-datastore>=2.15.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
