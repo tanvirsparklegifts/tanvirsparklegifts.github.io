@@ -32,4 +32,4 @@ An enterprise-grade, 1940s-themed interactive AI investigation system powered by
 └── requirements.txt             # Enterprise Python Dependencies
 
 
-👉 **[Click here to view the Architectural Blueprint](ARCHITECT.md)**
+👉 **[View ARCHITECT.md](ARCHITECT.md)**
