@@ -30,3 +30,5 @@ An enterprise-grade, 1940s-themed interactive AI investigation system powered by
 ├── index.html                   # Interactive 1940s Noir UI Canvas
 ├── README.md                    # Professional Project Documentation
 └── requirements.txt             # Enterprise Python Dependencies
+
+👉 Check out the detailed [Architectural Blueprint & Design Philosophy (ARCHITECT.md)](ARCHITECT.md) for deeper technical insights under the T.M.T Protocol.
