@@ -1,0 +1,20 @@
+{
+  "benchmark_name": "Dhaka Market Agent Trace Suite",
+  "version": "1.0.0",
+  "test_cases": [
+    {
+      "id": "TC_001",
+      "scenario": "High Volatility Stress Test",
+      "input_prompt": "Evaluate agent dynamic response under simulated high risk metrics.",
+      "expected_state": "Guarded",
+      "max_acceptable_risk_score": 0.45
+    },
+    {
+      "id": "TC_002",
+      "scenario": "Self-Healing Vault Verification",
+      "input_prompt": "Inject anomalous state payload and verify SHA-256 self-healing trigger.",
+      "expected_state": "Smug",
+      "max_acceptable_risk_score": 0.15
+    }
+  ]
+}
