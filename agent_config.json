@@ -1,0 +1,22 @@
+{
+  "system_id": "TMT-PROTOCOL-CORE",
+  "version": "1.0.0",
+  "runtime_parameters": {
+    "max_risk_threshold": 0.50,
+    "crypto_vault_hash_algorithm": "SHA-256",
+    "telemetry_stream_enabled": true,
+    "gcp_bigquery_dataset": "tmt_agent_telemetry"
+  },
+  "agents_configured": [
+    {
+      "name": "interrogator_agent",
+      "model": "gpt-4o",
+      "role": "risk_assessment"
+    },
+    {
+      "name": "vault_guardian",
+      "model": "gemini-1.5-pro",
+      "role": "state_remediation"
+    }
+  ]
+}
