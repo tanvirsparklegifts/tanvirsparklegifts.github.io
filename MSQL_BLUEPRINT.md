@@ -1,3 +1,4 @@
+
 # Masque Linage ($MSQL) Protocol Blueprint
 ## Privacy-Focused Tokenomics & Zero-Knowledge Encrypted Identity Architecture
 
@@ -27,3 +28,20 @@ Masque Linage ($MSQL) provides a privacy-preserving identity overlay and decentr
 
 ## 3. System Architecture Integration Flow
 
+```text
+[User / AI Agent]
+       │
+       ▼
+[Masque Linage ($MSQL) Identity Layer] ── (ZK-Proof Generation)
+       │
+       ▼
+[Aetherium Vault (AZK-HG Enclave)] ───── (AES-256-GCM Hardware Execution)
+       │
+       ▼
+[T.M.T Protocol Orchestration Engine] ── (GCP Datastore & Agent Output)
+
+Roadmap & Integration Stages
+​Phase 1: Architectural Alignment & Cryptographic Specification (Complete)
+​Phase 2: Interactive Simulation & ZK Circuit Binding
+​Phase 3: Enterprise Testnet & Multi-Agent Network Integration
+​Architected by Md Tanvir Ahammed Tonmoy | T.M.T Protocol Ecosystem
