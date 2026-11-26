@@ -1,28 +1,40 @@
-# Md Tanvir Ahammed Tonmoy
+# Tanvir Ahammed — Technology Portfolio
 
-**AI Systems Architect | Software Architecture | Digital Products**
+Public portfolio website for Md Tanvir Ahammed Tonmoy.
 
-Independent technology builder based in Bangladesh. I design and document AI-enabled software, backend systems, browser cryptography prototypes, and distributed-system simulations.
+**Live site:** https://tanvirsparklegifts.github.io/
 
-## Selected Projects
+## Purpose
 
-- **[Aetherium Vault](https://github.com/tanvirsparklegifts/aetherium-vault)** — educational browser-side cryptography demo using PBKDF2 and AES-256-GCM through the Web Crypto API. [Live demo](https://tanvirsparklegifts.github.io/aetherium-vault/).
-- **[AERO-X Protocol](https://github.com/tanvirsparklegifts/aero-x-protocol)** — Go-based in-process simulation of edge telemetry state, agent heartbeats, orchestration checks, and priority queues.
-- **[EliteAxis Global Engine](https://github.com/tanvirsparklegifts/elite-axis-engine)** — early modular FastAPI backend foundation, currently in development.
+A concise, English-language portfolio presenting selected software prototypes, architecture interests, technical capabilities, and collaboration / career contact information.
 
-## Working Principles
+## Featured work
 
-- Clear architecture and maintainable implementation.
-- Tests and CI as evidence of software behavior.
-- Honest project maturity labels and explicit technical limitations.
-- Security-conscious design without overstating audit or production readiness.
+- [Aetherium Vault](https://github.com/tanvirsparklegifts/aetherium-vault) — educational browser cryptography prototype using PBKDF2 and AES-256-GCM via the Web Crypto API. [Live demo](https://tanvirsparklegifts.github.io/aetherium-vault/).
+- [AERO-X Protocol](https://github.com/tanvirsparklegifts/aero-x-protocol) — Go-based in-process simulation of telemetry state, agent heartbeats, orchestration checks, and priority queues.
+- [EliteAxis Global Engine](https://github.com/tanvirsparklegifts/elite-axis-engine) — early FastAPI backend foundation with environment configuration and API tests.
+- Aether AI Core — multi-agent workflow and evaluation concept; presented as a concept, not a production AI service.
 
-These are exploratory software projects. Aetherium Vault is not an audited security product; AERO-X is not flight-control software; and EliteAxis is not a production financial platform.
+## Verified technology shown
 
-## Links
+Python, FastAPI, Go, JavaScript, Web Crypto API, pytest, Playwright, and GitHub Actions.
 
-- **Portfolio:** https://tanvirsparklegifts.github.io/
-- **GitHub profile:** https://github.com/tanvirsparklegifts
-- **Aetherium Vault demo:** https://tanvirsparklegifts.github.io/aetherium-vault/
+## Local preview
 
-For architecture notes, setup instructions, project status, and collaboration information, start with the portfolio and each project's README.
+This is a static website. From the repository root:
+
+```bash
+python -m http.server 8000
+```
+
+Open http://localhost:8000.
+
+## Project maturity
+
+The portfolio distinguishes live demos, in-development foundations, and concepts. It does not claim that exploratory projects are production financial systems, audited security products, or safety-critical software.
+
+## Contact
+
+- Website contact section: https://tanvirsparklegifts.github.io/#contact
+- GitHub: https://github.com/tanvirsparklegifts
+- LinkedIn: https://linkedin.com/in/tanvirahammedtonmoy98
